@@ -1,8 +1,8 @@
 
 function UserGreeting(props){
 
-    return(props.isLoggedIn ? <h2>welcome {props.username}</h2> :
-                            <h2>Please login to continue</h2>
+    return(props.isLoggedIn ? <h2 className="welcome-message">welcome {props.username}</h2> :
+                            <h2 className="login-prompt">Please login to continue</h2>
     );
 }
 
